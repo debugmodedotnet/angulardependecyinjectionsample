@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'diinangular';
+  url = undefined;
+  data: string;  
+  senddata(){
+    this.data = this.url.indexOf();
+  }
 }
